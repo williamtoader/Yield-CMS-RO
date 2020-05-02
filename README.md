@@ -1,7 +1,8 @@
-#Yield CMS
+# Yield CMS
+
 Alpha v0.2
 
-##Configurarea bazei de date
+## Configurarea bazei de date
 Parametrii de conectare ai bazei de date MySQL/MariaDB se
 vor seta în config.php.
 
@@ -22,14 +23,14 @@ CREATE TABLE `users` (
   UNIQUE KEY `users_username_uindex` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
-##Adăugarea utilizatorilor
+## Adăugarea utilizatorilor
 **⚠Important** Fișierul setup.php trebuie șters dacă Yield este folosit în producție
 Se va rula setup.php în consolă.
 
-##Cookie-uri
+## Cookie-uri
 În config.php se va seta domeniul pe care rulează Yield pentru cookie-urile 
 de sesiune http-only.
-##Conexiune Google Drive
+## Conexiune Google Drive
 În fișierul 
 `ncld_plugin_manager/plugins/gdrive_generator/credentials.json`
 se vor pune credențialele Google Cloud Platform Quickstart obținute 
