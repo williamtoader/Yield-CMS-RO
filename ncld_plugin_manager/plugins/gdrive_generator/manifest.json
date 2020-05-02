@@ -1,0 +1,6 @@
+{
+  "name": "gdrive",
+  "actions": {
+    "upload": "php generate_embed.php"
+  }
+}

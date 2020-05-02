@@ -1,0 +1,16 @@
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+ErrorDocument 403 /403.php
+RewriteEngine on
+RewriteCond %{HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+Order Allow,Deny
+<Files ~ "\.(php|html|js|css|svg|jpg|png)$">
+Allow from all
+</Files>
+<Files "">
+Allow from all
+</Files>
+<Files "cms">
+Allow from all
+</Files>
