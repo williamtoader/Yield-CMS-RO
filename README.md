@@ -39,3 +39,6 @@ dând click pe **Enable the Drive API**.
 După aceea se va rula scriptul `ncld_plugin_manager/plugins/gdrive_generator/gdrive_connect.php`
 în consolă astfel se va obține tokenul de cont care se va pune în
 `ncld_plugin_manager/plugins/gdrive_generator/token.json`.
+
+## Plugin-uri
+[Articol wiki](https://github.com/williamtoader/Yield-CMS-RO/wiki/Plugin-uri#plugin-uri-de-backend)
