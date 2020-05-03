@@ -41,4 +41,7 @@ După aceea se va rula scriptul `ncld_plugin_manager/plugins/gdrive_generator/gd
 `ncld_plugin_manager/plugins/gdrive_generator/token.json`.
 
 ## Plugin-uri
-[Articol wiki](https://github.com/williamtoader/Yield-CMS-RO/wiki/Plugins#plugin-uri-de-backend)
+[Articol wiki](https://github.com/williamtoader/Yield-CMS-RO/wiki/Plugins#plugin-uri-de-backend)  
+
+## Site-uri care folosesc Yield  
+[onb2020.ro](https://www.onb2020.ro)
