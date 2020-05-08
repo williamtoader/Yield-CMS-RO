@@ -3,6 +3,8 @@
 Alpha v0.2  
 [![Gitter](https://badges.gitter.im/YieldCMS/community.svg)](https://gitter.im/YieldCMS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+Vă rog să puneți la issues orice bug găsit și orice sugestie pe care o aveți.
+
 ## Configurarea bazei de date
 Parametrii de conectare ai bazei de date MySQL/MariaDB se
 vor seta în config.php.
