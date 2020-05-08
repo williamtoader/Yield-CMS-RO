@@ -23,8 +23,8 @@ function updatePageEntryDB($name, $data, $id)
 }
 
 function updateDocument($id, $newEntryName) {
-    global $currentWorkerTimeout, $defaultWorkerTimeout;
-    if (file_exists($_FILES['file']['tmp_name']) && isset(loadedPlugins["gdrive"])) {
+    global $currentWorkerTimeout, $defaultWorkerTimeout, $loadedPlugins;
+    if (file_exists($_FILES['file']['tmp_name']) && isset($loadedPlugins["gdrive"])) {
 
         /* Getting file name */
         $currentWorkerTimeout = 30;
