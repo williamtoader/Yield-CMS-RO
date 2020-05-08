@@ -1,6 +1,7 @@
 # Yield CMS
 
-Alpha v0.2
+Alpha v0.2  
+[![Gitter](https://badges.gitter.im/YieldCMS/community.svg)](https://gitter.im/YieldCMS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Configurarea bazei de date
 Parametrii de conectare ai bazei de date MySQL/MariaDB se
