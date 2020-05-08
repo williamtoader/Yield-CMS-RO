@@ -48,3 +48,18 @@ După aceea se va rula scriptul `ncld_plugin_manager/plugins/gdrive_generator/gd
 
 ## Site-uri care folosesc Yield  
 [onb2020.ro](https://www.onb2020.ro)
+  
+## Resurse externe  
+Backend:
+Am folosit API-urile Google pentru php. Sunt incluse și dependency-urile incluse de composer.  
+  
+Frontend:  
+- Bootstrap  
+- Jquery  
+- Jquery UI
+- Jquery UI touch punch
+- Sheet JS  
+- Fontawesome
+- [Js-Toast](https://github.com/mlcheng/js-toast)
+- bcrypt.js
+- md5.js
