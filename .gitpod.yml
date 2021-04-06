@@ -1,0 +1,5 @@
+image: wiliamtoader/yieldcms:demo
+
+ports:
+  - port: 80
+    onOpen: open-preview
